@@ -129,11 +129,9 @@ void ShoppingList::printNotBought() {
     cout << endl;
 }
 
-
 void ShoppingList::setShoppingListName(const string &shoppingListName) {
     ShoppingList::shoppingListName = shoppingListName;
 }
-
 
 int ShoppingList::notBought() {
     int result=0;

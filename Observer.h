@@ -16,5 +16,4 @@ public:
     virtual void update(const string& listName)=0;
 };
 
-
 #endif //ESAME_LABORATORIO_OBSERVER_H

@@ -5,7 +5,6 @@
 #ifndef ESAME_LABORATORIO_SHOPPINGLIST_H
 #define ESAME_LABORATORIO_SHOPPINGLIST_H
 
-
 #include "Observer.h"
 #include "Subject.h"
 #include "Item.h"

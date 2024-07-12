@@ -17,5 +17,4 @@ public:
     virtual void notify()=0;
 };
 
-
 #endif //ESAME_LABORATORIO_SUBJECT_H
