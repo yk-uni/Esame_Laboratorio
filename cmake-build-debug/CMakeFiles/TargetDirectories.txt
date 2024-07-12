@@ -1,0 +1,3 @@
+C:/Users/yashk/CLionProjects/Esame_Laboratorio/cmake-build-debug/CMakeFiles/Esame_Laboratorio.dir
+C:/Users/yashk/CLionProjects/Esame_Laboratorio/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yashk/CLionProjects/Esame_Laboratorio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
