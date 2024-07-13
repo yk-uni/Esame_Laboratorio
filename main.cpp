@@ -36,6 +36,7 @@ void print(const ShoppingList& sl){
 }
 
 
+
 int main() {
 
     cout<< "Welcome! Thanks to this program you will be able to memorize your shopping lists in a simple way"<<endl;
