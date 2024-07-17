@@ -53,6 +53,7 @@ public:
 
     const map <string,int> &getCategories() const;
 
+    const list<Item> &getItems(string &category) const;
 private:
 
     list<Observer*> observers;
