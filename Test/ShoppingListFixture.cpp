@@ -65,6 +65,10 @@ TEST_F(ShoppingListSuite, TestRemoveItem) {
     ASSERT_EQ(s.notBought(),6);
 }
 
+TEST_F(ShoppingListSuite, TestRemoveItemDoesNotExist) {
+    EXPECT_THROW(s.removeItem("mela"), std::invalid_argument);
+}
+
 
 TEST_F(ShoppingListSuite, TestSetBought) {
     s.setBought("ciliegia");
@@ -93,5 +97,15 @@ TEST_F(ShoppingListSuite, GettersAndSetters)
     ASSERT_EQ("lavoro",s.getShoppingListName());
 }
 
+TEST_F(ShoppingListSuite, TestGetItemsCategoryExists)
+{
+    list<Item> frutta = s.getItems((string &) "frutta");
+    ASSERT_EQ(1,frutta.size());
+}
+
+TEST_F(ShoppingListSuite, TestGetItemsCategoryDoesNotExist) {
+    list<Item> SoftDrink = s.getItems((string &)"SoftDrink");
+    ASSERT_TRUE(SoftDrink.empty());
+}
 
 

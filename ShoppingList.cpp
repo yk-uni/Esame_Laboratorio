@@ -143,10 +143,6 @@ int ShoppingList::notBought() {
     return result;
 }
 
-const map<string, shared_ptr<Item>> &ShoppingList::getShoppingList() const {
-    return shoppingList;
-}
-
 const list<Observer *> &ShoppingList::getObservers() const {
     return observers;
 }

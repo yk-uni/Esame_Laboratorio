@@ -47,7 +47,6 @@ public:
 
     void setShoppingListName(const string &shoppingListName);
 
-    const map<string, shared_ptr<Item>> &getShoppingList() const;
 
     const list<Observer *> &getObservers() const;
 
