@@ -104,7 +104,7 @@ TEST_F(ShoppingListSuite, TestGetItemsCategoryExists)
 }
 
 TEST_F(ShoppingListSuite, TestGetItemsCategoryDoesNotExist) {
-    list<Item> SoftDrink = s.getItems((string &)"SoftDrink");
+    list<Item> SoftDrink = s.getItems("SoftDrink");
     ASSERT_TRUE(SoftDrink.empty());
 }
 

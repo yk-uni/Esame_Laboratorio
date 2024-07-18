@@ -142,7 +142,9 @@ int ShoppingList::notBought() {
     }
     return result;
 }
-
+const map<string, shared_ptr<Item>> &ShoppingList::getShoppingList() const {
+    return shoppingList;
+}
 
 const list<Observer *> &ShoppingList::getObservers() const {
     return observers;
@@ -152,7 +154,7 @@ const map<string,int> &ShoppingList::getCategories() const {
     return categories;
 }
 
-list<Item> ShoppingList::getItems(const string& category){
+const list<Item> ShoppingList::getItems(const string& category){
     list<Item> items;
     for (auto &itr: shoppingList) {
         if (itr.second->getCategory()==category) {

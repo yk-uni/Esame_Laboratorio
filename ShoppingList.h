@@ -47,12 +47,13 @@ public:
 
     void setShoppingListName(const string &shoppingListName);
 
+    const map<string, shared_ptr<Item>> &getShoppingList() const;
 
     const list<Observer *> &getObservers() const;
 
     const map <string,int> &getCategories() const;
 
-    list<Item> getItems(const string& category);
+    const list<Item> getItems(const string& category);
 private:
 
     list<Observer*> observers;
