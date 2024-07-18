@@ -99,7 +99,7 @@ TEST_F(ShoppingListSuite, GettersAndSetters)
 
 TEST_F(ShoppingListSuite, TestGetItemsCategoryExists)
 {
-    list<Item> frutta = s.getItems((string &) "frutta");
+    list<Item> frutta = s.getItems( "frutta");
     ASSERT_EQ(1,frutta.size());
 }
 
