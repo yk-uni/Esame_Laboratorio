@@ -108,4 +108,3 @@ TEST_F(ShoppingListSuite, TestGetItemsCategoryDoesNotExist) {
     ASSERT_TRUE(SoftDrink.empty());
 }
 
-

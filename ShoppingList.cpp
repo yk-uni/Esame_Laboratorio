@@ -163,4 +163,3 @@ const list<Item> ShoppingList::getItems(const string& category){
     }
     return items;
 }
-

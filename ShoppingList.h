@@ -63,5 +63,4 @@ private:
 
 };
 
-
 #endif //ESAME_LABORATORIO_SHOPPINGLIST_H
